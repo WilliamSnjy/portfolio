@@ -155,6 +155,11 @@
     display: none;
   }
 
+  .res_image{
+    width: 270px;
+    height: 135px;
+  }
+
   .navhead{
     font-size: xx-small;
   }

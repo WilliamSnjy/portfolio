@@ -20,6 +20,7 @@ export default function Project(){
                       height={150}
                       alt="gambar bakbek"
                       style={{ borderRadius: 5}}
+                      className={styles.res_image}
                     />
                   </div>
                   <h1>{item.title}</h1>
