@@ -35,10 +35,27 @@
             "title" : "Bookshelf Apps",
             "description" : "Book Recording Apps",
             "build" : [
-                "Javascript",
-                "Laravel",
-                "MySQL"
+                "HTML",
+                "CSS",
+                "Javascript"
+            ]
+        },
+        {
+            "image" : "/typetest.jpeg",
+            "title" : "Typetest",
+            "description" : "Typing Test Website",
+            "build" : [
+                "React"
+            ]
+        },
+        {
+            "image" : "/contact.jpeg",
+            "title" : "Contact App",
+            "description" : "Contact Recording Website",
+            "build" : [
+                "React"
             ]
         }
+
     ]
 }
