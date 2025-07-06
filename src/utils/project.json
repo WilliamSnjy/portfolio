@@ -1,0 +1,44 @@
+{
+    "projects" : [
+        {
+            "image" : "/bakbek.jpeg",
+            "title" : "BakBek",
+            "description" : "Profile Food Website",
+            "build" : [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ]
+        },
+        {
+            "image" : "/florist.jpeg",
+            "title" : "Agung Florist",
+            "description" : "Florist Website",
+            "build" : [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ]
+        },
+        {
+            "image" : "/keuangan.jpeg",
+            "title" : "Pencatatan Keuangan",
+            "description" : "Financial Recording Website",
+            "build" : [
+                "Javascript",
+                "Laravel",
+                "MySQL"
+            ]
+        },
+        {
+            "image" : "/bookshelf.jpeg",
+            "title" : "Bookshelf Apps",
+            "description" : "Book Recording Apps",
+            "build" : [
+                "Javascript",
+                "Laravel",
+                "MySQL"
+            ]
+        }
+    ]
+}

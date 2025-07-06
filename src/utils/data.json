@@ -1,0 +1,44 @@
+{
+    "datas" : [
+        {
+            "image" : "/react.svg",
+            "nama" : "React"
+        },
+        {
+            "image" : "/react.svg",
+            "nama" : "React Native"
+        },
+        {
+            "image" : "/js.svg",
+            "nama" : "Javascript"
+        },
+        {
+            "image" : "/nextjs.svg",
+            "nama" : "Next"
+        },
+        {
+            "image" : "/python.svg",
+            "nama" : "Python"
+        },
+        {
+            "image" : "/php.svg",
+            "nama" : "PHP"
+        },
+        {
+            "image" : "/laravel.svg",
+            "nama" : "Laravel"
+        },
+        {
+            "image" : "/node.svg",
+            "nama" : "NodeJS"
+        },
+        {
+            "image" : "/mysql.svg",
+            "nama" : "MySQL"
+        },
+        {
+            "image" : "/postgre.svg",
+            "nama" : "PostgreSQL"
+        }
+    ]
+}
