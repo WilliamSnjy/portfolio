@@ -13,8 +13,8 @@ export default function Home() {
           <h1>Hello, I&apos;m William</h1>
           <Image
             src="/mukaku.jpeg"
-            width={50}
-            height={50}
+            width={75}
+            height={75}
             alt="gambar muka"
             className={styles.roundimg}
           />

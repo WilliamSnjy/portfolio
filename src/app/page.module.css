@@ -1,11 +1,4 @@
 .page {
-  --gray-rgb: 214, 214, 214;
-  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
-  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
-
-  --button-primary-hover: #d6d6d6;
-  --button-secondary-hover: #f2f2f2;
-
   min-height: 100svh;
   padding: 0px 80px 10px 80px;
   gap: 64px;
@@ -53,7 +46,7 @@
   margin-top: 70px;
   display: flex;
   gap: 20px;
-  font-size: large;
+  font-size: xx-large;
 }
 
 .description{
@@ -157,6 +150,48 @@
 }
 
 @media (max-width: 600px) {
+
+  .navhead{
+    font-size: 7px;
+  }
+
+  .navcontent{
+    font-size: 0.2em;
+  }
+
+  .navbox{
+    align-items: normal;
+    justify-content: normal;
+  }
+
+  .introduction {
+    font-size: medium;
+    justify-content: center;
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    width: 300px;
+    line-height: 20px;
+  }
+
+  .description_article{
+    width: 300px;
+    font-size: small;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .down {
+    margin-top: 150px;
+    margin-bottom: 200px;
+  }
+
   .page {
     padding: 32px;
     padding-bottom: 80px;
