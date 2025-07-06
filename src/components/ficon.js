@@ -39,7 +39,7 @@ export default function Footer(){
               />
             </div>
           </a>
-          <a target="blank" href="https://wa.me/081383680980">
+          <a target="blank" href="https://wa.me/+6281383680980">
             <div>
               <Image
                 src="/whatsapp.svg"
