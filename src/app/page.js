@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Nav from "@/components/nav";
 import Skills from "@/components/content-skils";
 import Project from "@/components/card";
+import Footer from "@/components/ficon";
 
 export default function Home() {
   return (
@@ -32,34 +33,7 @@ export default function Home() {
         <div className={styles.divider}></div>
         <Project />
       </main>
-      <footer className={styles.box}>
-        <div className={styles.footer_box}>
-          <h1>Thanks for visiting — I&apos;m glad you&apos;re here!</h1>
-          <p>Feel free to get in touch — whether you&apos;re interested in collaborating, exploring new opportunities, or just want to say hello.</p>
-        </div>
-        <div className={styles.footer_icon}>
-          <a target="blank" href="https://www.linkedin.com/in/william-sanjaya/">
-            <div>
-              <Image
-                src="/linkedin.svg"
-                width={50}
-                height={50}
-                alt="email"
-              />
-            </div>
-          </a>
-          <a target="blank" href="https://github.com/WilliamSnjy">
-            <div>
-              <Image
-                src="/ggithub.svg"
-                width={50}
-                height={50}
-                alt="github"
-              />
-            </div>
-          </a>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

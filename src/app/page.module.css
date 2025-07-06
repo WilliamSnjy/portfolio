@@ -151,12 +151,16 @@
 
 @media (max-width: 600px) {
 
+  .profile {
+    display: none;
+  }
+
   .navhead{
-    font-size: 7px;
+    font-size: xx-small;
   }
 
   .navcontent{
-    font-size: 0.2em;
+    font-size: xx-small;
   }
 
   .navbox{
@@ -165,14 +169,14 @@
   }
 
   .introduction {
-    font-size: medium;
+    font-size: large;
     justify-content: center;
   }
 
   .description {
     display: flex;
     justify-content: center;
-    font-size: medium;
+    font-size: large;
     width: 300px;
     line-height: 20px;
   }
@@ -188,7 +192,7 @@
   }
 
   .down {
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 200px;
   }
 
