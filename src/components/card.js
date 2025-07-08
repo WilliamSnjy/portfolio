@@ -1,8 +1,19 @@
+"use client";
+
 import Image from "next/image";
 import styles from "../app/page.module.css";
 import project from "@/utils/project.json";
+import { useState } from "react";
 
 export default function Project(){
+  const [visibleCount, setVisibleCount] = useState(4);
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + 4);
+  }
+
+  const isAllLoaded = visibleCount >= project.projects.length;
+   
     return (
         <article className={styles.description_article}>
           <h1>Projects</h1>
@@ -10,7 +21,7 @@ export default function Project(){
             I take on different kinds of projects — whether it’s building my own products, helping clients, or just having fun with side experiments.
           </p>
           <div className={styles.project_box}>
-            {project.projects.map((item, index) => (
+            {project.projects.slice(0, visibleCount).map((item, index) => (
               <div key={index} className={styles.cardbox}>
                 <div  className={styles.card}>
                   <div className={styles.cardimg}>
@@ -74,8 +85,13 @@ export default function Project(){
                   </div>
                 </div>
               </div>
-            ))} 
+            ))}
           </div>
+          {!isAllLoaded && (
+            <div className={styles.button_box}>
+              <button className={styles.button_more} onClick={handleLoadMore}>More</button>
+            </div>
+          )}
         </article>
     )
 }
