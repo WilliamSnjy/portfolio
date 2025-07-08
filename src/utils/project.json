@@ -8,7 +8,14 @@
                 "HTML",
                 "CSS",
                 "Javascript"
-            ]
+            ],
+            "website" : "/website.svg",
+            "webtext" : "Website",
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "weblink" : "https://bakbekfix.vercel.app/",
+            "gitlink" : "https://github.com/WilliamSnjy/bakbekfix"
+            
         },
         {
             "image" : "/florist.jpeg",
@@ -28,7 +35,10 @@
                 "Javascript",
                 "Laravel",
                 "MySQL"
-            ]
+            ],
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "gitlink" : "https://github.com/WilliamSnjy/CatatUang"
         },
         {
             "image" : "/bookshelf.jpeg",
@@ -38,7 +48,13 @@
                 "HTML",
                 "CSS",
                 "Javascript"
-            ]
+            ],
+            "website" : "/website.svg",
+            "webtext" : "Website",
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "weblink" : "https://bookshelf-app-ruddy.vercel.app/",
+            "gitlink" : "https://github.com/WilliamSnjy/bookshelf-app"
         },
         {
             "image" : "/typetest.jpeg",
@@ -46,7 +62,13 @@
             "description" : "Typing Test Website",
             "build" : [
                 "React"
-            ]
+            ],
+            "website" : "/website.svg",
+            "webtext" : "Website",
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "weblink" : "https://typingtest-bay.vercel.app/",
+            "gitlink" : "https://github.com/WilliamSnjy/typingtest"
         },
         {
             "image" : "/contact.jpeg",
@@ -54,7 +76,13 @@
             "description" : "Contact Recording Website",
             "build" : [
                 "React"
-            ]
+            ],
+            "website" : "/website.svg",
+            "webtext" : "Website",
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "weblink" : "https://contacts-app-six-rho.vercel.app/",
+            "gitlink" : "https://github.com/WilliamSnjy/contacts-app"
         }
 
     ]

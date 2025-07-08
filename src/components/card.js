@@ -34,6 +34,44 @@ export default function Project(){
                       </div>
                     ))}
                   </div>
+                  <div className={styles.card_link_box}>
+                    {item.website && item.webtext && (
+                      <a className={styles.card_link_hover} target="blank" href={item.weblink}>
+                        <div className={styles.card_link}>
+                          <div className={styles.card_link_img}>
+                            <Image
+                              src={item.website}
+                              width={15}
+                              height={15}
+                              alt="gambar website"
+                              style={{ borderRadius: 5}}
+                            />
+                            </div>
+                            <div className={styles.card_link_desc}>
+                              <p>{item.webtext}</p>
+                            </div>
+                        </div>
+                      </a>
+                    )}
+                    {item.github && item.gittext && (
+                      <a className={styles.card_link_hover} target="blank" href={item.gitlink}>
+                        <div className={styles.card_link}>
+                          <div className={styles.card_link_img}>
+                            <Image
+                              src={item.github}
+                              width={15}
+                              height={15}
+                              alt="gambar github"
+                              style={{ borderRadius: 5}}
+                            />
+                            </div>
+                            <div className={styles.card_link_desc}>
+                              <p>{item.gittext}</p>
+                            </div>
+                        </div>
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
             ))} 

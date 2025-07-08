@@ -106,6 +106,7 @@
 
 .card{
   padding: 20px;
+  min-height: 317px;
 }
 
 .card_description{
@@ -119,6 +120,31 @@
   line-height: 7px;
   padding: 5px;
   border-radius: 5px;
+}
+
+.card_link_box{
+  display: flex;
+  gap: 10px;
+}
+
+.card_link{
+  display: flex;
+  padding-top: 5px;
+  gap: 5px;
+}
+
+.card_link_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_link_desc{
+  font-size: small;
+}
+
+.card_link_hover:hover{
+  color: #737373;
 }
 
 .footer_box{
