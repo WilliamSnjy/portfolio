@@ -1,6 +1,30 @@
 {
     "projects" : [
         {
+            "image" : "/blog-app.jpeg",
+            "title" : "Forum",
+            "description" : "Personal Blog App",
+            "build" : [
+                "React",
+                "Tailwind"
+            ],
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "gitlink" : "https://github.com/WilliamSnjy/blog-app"
+        },
+        {
+            "image" : "/api-blog-app.jpeg",
+            "title" : "API Forum",
+            "description" : "API Personal Blog App",
+            "build" : [
+                "Express JS",
+                "PostgreSQL"
+            ],
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "gitlink" : "https://github.com/WilliamSnjy/api-blog-app"
+        },
+        {
             "image" : "/bakbek.jpeg",
             "title" : "BakBek",
             "description" : "Profile Food Website",
