@@ -102,6 +102,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 2px 2px #cacaca;
+}
+
+.cardbox:hover{
+  background-color: #e7e7e7;
 }
 
 .card{
