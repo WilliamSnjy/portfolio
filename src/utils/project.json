@@ -1,6 +1,19 @@
 {
     "projects" : [
         {
+            "image" : "/filmku.jpeg",
+            "title" : "FilmKu",
+            "description" : "Movie List Website",
+            "build" : [
+                "React",
+                "Tailwind",
+                "TMDB API"
+            ],
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "gitlink" : "https://github.com/WilliamSnjy/FilmKu"
+        },
+        {
             "image" : "/blog-app.jpeg",
             "title" : "Forum",
             "description" : "Personal Blog App",
