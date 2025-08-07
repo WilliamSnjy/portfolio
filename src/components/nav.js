@@ -19,12 +19,6 @@ export default function Nav(){
               </li>
               <li className={styles.navbox}>
                 <div>
-                  <p className={styles.navhead}>+6281383680980</p>
-                  <p className={styles.navcontent}>Mobile</p>
-                </div>
-              </li>
-              <li className={styles.navbox}>
-                <div>
                   <p className={styles.navhead}>Indonesia</p>
                   <p className={styles.navcontent}>Current Location</p>
                 </div>
