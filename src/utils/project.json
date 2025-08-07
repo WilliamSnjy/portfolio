@@ -1,6 +1,30 @@
 {
     "projects" : [
         {
+            "image" : "/yukcatat.jpeg",
+            "title" : "YukCatat",
+            "description" : "To Do list web with multiuser feature",
+            "build" : [
+                "Next JS",
+                "Tailwind"
+            ],
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "gitlink" : "https://github.com/WilliamSnjy/YukCatat"
+        },
+        {
+            "image" : "/api-yukcatat.jpeg",
+            "title" : "API YukCatat",
+            "description" : "Backend for YukCatat web",
+            "build" : [
+                "Express JS",
+                "PostgreSQL"
+            ],
+            "github" : "/ggithub.svg",
+            "gittext" : "Github",
+            "gitlink" : "https://github.com/WilliamSnjy/API-YukCatat"
+        },
+        {
             "image" : "/filmku.jpeg",
             "title" : "FilmKu",
             "description" : "Movie List Website",
